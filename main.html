@@ -1,17 +1,80 @@
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-th, td {
-    padding: 10px;
-    text-align: center;
-}
-
-th {
-    background-color: #f2f2f2;
-}
-
-tr:nth-child(even) {
-    background-color: #dddddd;
-}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Table Example</title>
+    <style>
+        table {
+            border: 2px solid black;
+            background-color: yellow;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        
+        caption {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Student Details</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Grade</th>
+                <th>Saved</th>
+                <th>Deaths</th>
+                <th>Revives</th>
+                <th>Wins</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Hackerman</td>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Cool Doggo</td>
+                <td>1</td>
+                <td>a fl</td>
+                <td>7</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Andrews</td>
+                <td>19</td>
+                <td>2</td>
+                <td>0</td>
+                <td>n</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Strawberry</td>
+                <td>2</td>
+                <td>5</td>
+                <td>3</td>
+                <td>5</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
